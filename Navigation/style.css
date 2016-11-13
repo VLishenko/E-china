@@ -1,0 +1,99 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "GothamProRegular";
+	src: url("fonts/GothamProRegular/GothamProRegular.eot");
+	src: url("fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+	url("fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+.nav-bts-block {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 990px;
+	margin: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.nav-bts-block li {
+	display: block;
+	width: 100%;
+	max-width: 260px;
+	text-align: center;
+	border: 3px solid #fff;
+	background-color: #f3f2f2;
+	vertical-align: top;
+}
+.nav-bts-block li:first-child {
+	border-left: none;
+}
+.nav-bts-block li:last-child {
+	border-right: none;
+}
+.nav-bts-block a {
+	display: block;
+	position: relative;
+	padding: 2px 0;
+	height: 100%;
+	text-decoration: none;
+	color: #191919;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 14px;
+	font-family: GothamProRegular;
+}
+.nav-bts-block a span {
+	display: block;
+	margin-top: 8px;
+}
+.nav-bts-block i {
+	display: inline-block;
+	content: '';
+	background-image: url(img/sprite-btns.png);
+	margin-bottom: 9px;
+	height: 58px;
+}
+.nav-bts-block i:after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 62%;
+	height: 2px;
+	background-color: #e60004;
+	top: 0;
+	left: 19%;
+	margin-top: 70px;
+}
+
+.nav-bts-block i.ic-cart {
+	width: 70px;
+	background-position: -1px 0;
+}
+.nav-bts-block i.ic-car {
+	width: 73px;
+	background-position: -73px 0;
+}
+
+.nav-bts-block i.ic-mark {
+	width: 57px;
+	background-position: -146px 0;
+}
+
+.nav-bts-block i.ic-list{
+	width: 46px;
+	background-position: -205px 0;
+}
+
+.nav-bts-block i.ic-clients{
+	width: 54px;
+	background-position: -252px 0;
+}
+.nav-bts-block i.ic-finger {
+	width: 58px;
+	background-position: -306px 0;
+}
