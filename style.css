@@ -1,4 +1,9 @@
 /*Этот блок не копировать*/
+html,
+body {
+	min-width: 990px;
+}
+
 .btn{
  display: inline-block;
  border:1px solid #C9C9C9;
